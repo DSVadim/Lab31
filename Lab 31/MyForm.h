@@ -126,7 +126,7 @@ namespace Lab31 {
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(237, 269);
+			this->button1->Location = System::Drawing::Point(286, 283);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(119, 42);
 			this->button1->TabIndex = 2;
@@ -137,7 +137,7 @@ namespace Lab31 {
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(399, 269);
+			this->label1->Location = System::Drawing::Point(399, 239);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(0, 13);
 			this->label1->TabIndex = 3;
@@ -145,7 +145,7 @@ namespace Lab31 {
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(399, 297);
+			this->label2->Location = System::Drawing::Point(399, 267);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(0, 13);
 			this->label2->TabIndex = 4;
@@ -154,7 +154,7 @@ namespace Lab31 {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(491, 395);
+			this->ClientSize = System::Drawing::Size(604, 343);
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->button1);
