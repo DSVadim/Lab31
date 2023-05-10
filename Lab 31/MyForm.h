@@ -185,7 +185,7 @@ namespace Lab31 {
 		cosa = x1 / sqrt(pow(x1, 2) + pow(y1, 2));
 		cosb = x2 / sqrt(pow(x2, 2) + pow(y2, 2));
 		cosc = x3 / sqrt(pow(x3, 2) + pow(y3, 2));
-		Sum = cosa + cosb + cosc;
+		Sum = 2 * ((cosa + cosb) / 2) * ((cosa - cosb) / 2) + cosc;
 
 		double a = std::sqrt(std::pow(x2 - x1, 2) + std::pow(y2 - y1, 2));
 		double b = std::sqrt(std::pow(x3 - x2, 2) + std::pow(y3 - y2, 2));
